@@ -21,6 +21,7 @@ def edit_contact(contacts, name, number, *args):
     
     
     value = contacts.get(name)
+    
     if value[0] != "":  # string empty if u dont want to change the value
         value[0] = number
         
