@@ -1,0 +1,9 @@
+Dieses Programm erstellt ein Schachbrett mit dem input n (n x n). Das heißt, wenn man input 5 nimmt, ist das Brett 5x5 groß.
+Es wird Python 3.10 empfohlen, da es auch auf dieser Version entwickelt wurde.
+
+1. Der User wird nach einem Input gefragt. (nur 1 Zahl n)
+2. Danach wird ein Schachbrett der größe "n x n" erstellt.
+
+Empfohlene Eingabe max 26 char., und keine Buchstaben.
+
+Testcases im Pyton-Code.s

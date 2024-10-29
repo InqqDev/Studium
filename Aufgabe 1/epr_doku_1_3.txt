@@ -1,0 +1,46 @@
+Dieses Programm rechnet aus, wie viele "Freitag der 13te" es maximal und minimal gibt. Schalte mit berücksichtigt.
+Es wurde mit python 3.10 entwickelt und wird deshalb auch empfohlen.
+
+Als erstes habe ich eine Funktion (friday_13th) definiert. Diese wird später für das Schaltjahr wichtig sein.
+Danach habe ich eine liste "months_days" erstellt. In dieser sind 12 Elemente (Monate) enthalten mit jeweils den Tagen. Z.B. Januar = 31 oder April = 30.
+Ebenso erstelle ich eine leere Liste (f_13_list), in welcher später die gewünschten Freitage hinzuaddiert werden.
+
+Zunächst habe ich eine for-loop benutzt mit der range(7) und sie "starting_week_day" genannt. 
+Durch die range(7) habe ich Montag (0) bis Sonntag (6). Ich setze die Variable "friday_13" = 0, weil zu Beginn kein Freitag der 13 bekannt ist.
+
+Damit das Programm den Wochentag updated rechnet es (week_day + 1) % 7.
+Da Montag bei 0 anfängt und somit Sonntag 6 ist, müssen wir 1 addieren, damit die Rechnung richtig funktioniert.
+Wenn ein Tag ein Freitag ist (week_day == 4) und der 13te ist (day == 12), dann wird zur Variable "friday_13", 1 addiert.
+
+Nachdem die ganze "months_days"-Liste durchgegangen worden ist, werden durch "f_13_list.append(friday_13)" die gefundenen Freitag der 13te zur Liste
+"f_13_list" hinzugefügt. Diese Liste wird auch beim Output angezeigt.
+
+Als nächstes wird der User gefragt, ob es sich um ein Schaltjahr handelt oder nicht. Das kann er in der Konsole mit "y" oder "n" bestimmen.
+Das macht das Programm mithile der if else Bedingung. ("y" steht für "yes", "n" steht für "no").
+
+Bei "y":	
+		Ich weise der Variable "a" die Funktion "friday_13th(1) zu. Dadurch, dass ich ganz am Anfang vom Code die Funktion "friday_13th"(leap_year)
+		aufgestellt habe, updatet die Funktion an der Stelle des 2ten Elements der Liste "months_days" (in dem Fall hört der Monat Februar nicht bei
+		28 auf sondern bei 29). Dann benutze ich die Variablen "minimum" und weise sie der Funktion "min(a)" zu. Genauso auch mit "maximum" und "max(a)"
+		Danach wird "a" geprintet, damit man sieht, wieviele Freitag der 13te es geben würde, je nach dem mit welchem Tag man beginnen würde.
+		Zusätzlich printe ich min und max, damit man auch auf den direkten Blick sieht, wieviele es maximal und minimal geben kann (alle Tage berücksichtigt).
+
+Bei "n":	Ich weise der Variable "b" die Funktion "friday_13th(0) zu. Dadurch wird die Liste "months_days" normal durchgegangen (Februar bleibt bei 28).
+		Ich nutze wieder die Variablen "minimum" und "maximum" für "min(b)" und "max(b)". Anschließend printe ich "b", um zu sehen, wie viele
+		Freitag der 13te es geben würde, je nach dem mit welchem Tag man beginnen würde. Zusätzlch printe ich "min" und "max", damit man direkt sehen kann,
+		wie viele es maximal und minimal geben kann (alle Tage berücksichtigt).
+
+Sonst:	Gibt man weder "y" noch "n" ein, bekommt der User die Nachricht:
+													"Eingabe nicht korrekt!"
+
+Testcases im Python-Code.
+
+
+
+
+			
+		
+
+
+
+

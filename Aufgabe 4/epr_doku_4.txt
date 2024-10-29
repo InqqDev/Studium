@@ -1,0 +1,34 @@
+Dieses Programm importiert das Modul memory.py welches die Funktionen für das Memory-Spiel besitzt.
+Es wird Python 3.10 empfohlen, weil es auch in dieser Version entwickelt wurde.
+
+Beim Start des Programms wird in der Konsole das 4x5 Feld angezeigt welches von A1 - E4 geht.
+Darunter wird der user abgefragt, welche Karten er ziehen möchte (1 guess und 2 guess):
+
+	A1 B1 C1 D1 E1
+	A2 B2 C2 D2 E2
+	A3 B3 C3 D3 E3
+	A4 B4 C4 D4 E4
+	Wähle die Position der ersten Karte, die du aufgedeckt haben willst: <Guess 1>
+	Wähle die Position der zweiten Karte, die du aufgedeckt haben willst: <Guess 2>
+
+Nachdem man sich für 2 Positionen entschieden hat, werden die aufgedeckten Symbole für 3 Sekunden aufgedeckt.
+Z.B. so: (A3 & A4)	
+		A1 B1 C1 D1 E1
+		A2 B2 C2 D2 E2
+		♥  B3 C3 D3 E3
+		❄  B4 C4 D4 E4
+
+Wählt man eine z.B. 2x das gleiche Feld, dann erscheint kein korrekter input, und du man muss sich für einen neuen 2 Guess entscheiden.
+
+Nachdem man 1 Paar gefunden hat, wird das Feld leer gelassen und das Brett sieht wie folgt aus: (B3 & D4)
+																	A1 B1 C1 D1 E1
+																	A2 B2 C2 D2 E2
+																	A3    C3 D3 E3
+																	A4 B4 C4    E4
+
+Nach Erfolgter Eingabe, cleart sich die Konsole, sodass nur das Brett zusehen ist, sowie der input für den nächsten guess des Users.
+
+Am Ende des Spiels wird angezeigt, wie viele Runden es gab, bis alle Karten aufgedeckt wurden und der User kann durch die Ja/Nein abfrage entscheiden,
+ob es erneut spielen möchte. Dafür muss er y oder n in die Konsole eingeben.
+
+Testcases im Python-Code

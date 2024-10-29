@@ -1,0 +1,10 @@
+Dieses Programm überprüft, ob es sich bei dem eingegebenen Jahr um ein Schaltjahr handelt oder nicht.
+Es wird Python 3.10 empfohlen, da es auch auf dieser Version entwickelt wurde.
+
+1. Der User wird nach einem Input (das abzufragende Jahr) gefragt.
+2. Der Output zeigt an, ob das abzufragende Jahr ein Schaltjahr ist oder nicht. (Das Jahr <eingegebenes Jahr> ist ein/kein Schaltjahr).
+
+Eingabe sollten nur Integer sein. Gibt man z.B. einen Buchstaben ein, kommt als Output ein ValueError.
+Bestenfalls gibt man auch ein Jahr mit 4 Ziffern an.
+
+Testcases im Python-Code.

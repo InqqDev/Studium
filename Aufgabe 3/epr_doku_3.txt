@@ -1,0 +1,43 @@
+Dieses Programm erlaubt dem Nutzer durch die importierte eprtools.py Datei in der Konsole sich für verschiedene "Programme" zu entscheiden.
+Es wird Python 3.10 empfohlen, da es auch auf dieser Version entwickelt wurde.
+
+Beim Ausführen der Datei bekommt der Nutzer das in seiner Konsole angezeigt:	Welches Programm willst du ausführen?
+													(1) Binär-Rechner
+													(2) Exam-Countdown
+													(3) Kursseiten öffnen
+													(4) Password-Generator
+
+Entscheidet er sich für Binär-Rechner, wird der Nutzer aufgefordert eine Dezimalzahl anzugeben, welche nicht 0 oder negativ ist.
+Das Programm zeigt dann die transformierte Dezimalzahl als Binärzahl an.
+
+Entscheidet er sich für Exam-Countdown, wird die verbleibende Zeit bis zum Exam angezeigt. (Verglichen mit der Zeit beim starten des Programms)
+
+Entscheidet er sich für Kursseiten öffnen, dann bekommt er das zu sehen:	Welche Kursseite willst du öffnen?
+												(1) EPR
+												(2) LinADI
+												(3) Dismod
+												(4) GPR
+												(5) STO
+Wählt er eines der Optionen aus, wird er auf die jeweilige Seite weitergeleitet.
+
+Wählt er den Password-Generator aus, muss er sich für die Länge des Passworts entscheiden.
+Das Programm erstellt dann ein zufälliges Passwort mit A-z und 1-9 mit der ausgewählten Länge.
+
+###TESTCASES###
+
+1.	Entscheidet sich der Nutzer eine Dezimalzahl umzuformen und drückt die 1, wird er gefragt, welche Dezimalzahl er gerne umwandeln wollen würde.
+	nimmt dieser die Zahl 23 dann kommt dieses Ergebnis raus:	1
+											11
+											111
+											0111
+											10111
+2.	Gibt der Nutzer anstatt der Möglichkeiten 1-4, 5 ein, dann erscheint "Eingabe ungültig." und der Nutzer muss sich erneut entscheiden.
+3.	Gibt der Nutzer einen Buchstaben ein, wird er erneut aufgefordert sich zu entscheiden.
+
+Derzeit ist die "zurück"-Funktion nicht implementiert worden. D.h. um wieder auf das "Anfangsmenü":	
+																	Welches Programm willst du ausführen?, 
+																	(1) Binär-Rechner
+																	(2) Exam-Countdown
+																	(3) Kursseiten öffnen
+																	(4) Password-Generator
+zu kommen, muss man entweder das Programm neu starten.

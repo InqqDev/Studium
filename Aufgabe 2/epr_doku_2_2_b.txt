@@ -1,0 +1,21 @@
+Dieses Programm erstellt ein n x n Schachbrett und erlaubt dem User eine Position für die Königin auszusuchen.
+Es wird Python 3.10 empfohlen, da es auch auf dieser Version entwickelt wurde.
+
+1.	Der User wird nach einen input n gefragt, um die größe des Schachbretts zu bestimmen (n x n)
+2.	Nachdem der User sich für eine größe entschieden hat, kann er sich für die Position der Königin entscheiden.
+	Diese wird dann mit dem jeweiligen Buchstaben und der Zahl ausgetauscht. (z.B. D3 -> ♛)
+
+Ist der gewünschte Spot, wo man die Königin hinbewegen möchte, nicht existent, so wird dem User "Königin kann nicht
+auf dem Schachbrett positioniert werden!".
+
+Durch eine if Schleife wird überprüft, ob die Königin auf dem gewollten Spot angekommen ist, oder nicht.
+
+Wenn alles mit den Bedingungen übereinstimmt, dann wird das Schachbrett in dem gewollten Format (n x n)
+in der Konsole angezeigt und man kann sich den Sport für die Königin aussuchen. Wählt man diesen auch
+korrekt, dann wird das Schachbrett erneut in der Konsole angezeigt, jedoch anstatt des Feldes (z.B. H3),
+mit dem Königin-Symbol "♛".
+
+Der Code fängt nicht alles ab. Z.B. kommt ein ValueError, wenn der User versucht, bei der ersten Abfrage einen
+Buchstaben zu benutzen.
+
+Testcases im Python-Code.

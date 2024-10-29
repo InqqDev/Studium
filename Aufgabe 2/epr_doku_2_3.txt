@@ -1,0 +1,46 @@
+Dieses Programm stellt ein Spiel dar, in welchem zwei Spieler gegeneinander antreten.
+Es gibt 13 Sreichhölzer und jeder Spieler darf pro Zug zwischen 1-3 Streichhölzer ziehen.
+Der Spieler, welcher als letztes Streichhölzer zieht und keine mehr übrig sind, gewinnt.
+
+Die Spieler werden abwechselnd gefragt, wieviele Streichhölzer sie im jetzigen Zug ziehen möchten (1-3).
+Wählt ein Spieler x < 1 oder x > 3, dann kommt "ungültige Eingabe" und der Spieler ist weiterhin dran,
+bis er einen korrekten input wählt.
+
+Die Streichhölzer werden zu beginn so angezeigt:
+
+============================================
+Es verbleiben noch 13 Streichhölzer:
+()  ()  ()  ()  ()  ()  ()  ()  ()  ()  ()  ()  ()  
+||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+Spieler 1 ist dran, wie viele Streichhölzer sollen genommen werden? (1-3):
+============================================
+
+Wenn der Spieler aufgefordert wird einen Zug zu machen,
+wird es wiefolgt angezeigt:	"Spieler 1 ist dran, wie viele Streichhölzer sollen genommen werden? (1-3): "
+
+Wählt er die Zahl x < 1 oder x > 3,
+dann erscheint "ungülite eingabe und der Spieler wird erneut aufgefordert,
+eine Zahl zwischen x < 1 oder x > 3 auszusuchen:
+									"ungültige Eingabe
+									 Spieler 1 ist dran, wie viele Streichhölzer sollen genommen werden? (1-3): "
+
+Der Code fängt aber nicht alles ab. Z.B. kommt ein ValueError, wenn der Spieler anstatt einer Zahl,
+einen Buchstaben verwendet. Dadurch wird der Spieler nicht mehr nach einer erneuten eingabe gefragt und das Programm
+muss von neu gestartet werden.
+
+Gewinnt ein Spieler, sieht es in der Konsole wiefolgt aus:
+										Spieler 1 hat gewonnen
+										============================================
+										Es verbleiben noch 0 Streichhölzer:
+
+
+
+
+										============================================
+
+
+Testcases im Python-Code.
+						
+					
