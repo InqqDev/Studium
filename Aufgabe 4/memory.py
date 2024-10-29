@@ -90,7 +90,6 @@ def draw_grid(grid, pos1 = None, pos2 = None):  # Shows memory in console
            and showes symbols if pos1 and pos2 are included) 
     """
 
-
     os.system('cls')  # clears board
 
     if pos1 != None and pos2 != None:
