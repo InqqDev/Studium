@@ -169,13 +169,6 @@ def main(first_time:bool=True, previous_config = None):
         if player.get_points() > winner.get_points():
             winner = player
     screen_handler.winner_screen(screen, winner, players)
-
-
-
-
-
-
-
     return previous_config
 
 
