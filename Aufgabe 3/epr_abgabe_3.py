@@ -34,3 +34,4 @@ while True:
         what_programm = input("Welches Programm willst du ausführen?\n" +
                             "(1) Binär-Rechner\n(2)" + " Exam-Countdown\n" +
                             "(3) Kursseiten öffnen\n(4) Password-Generator\n")
+        
