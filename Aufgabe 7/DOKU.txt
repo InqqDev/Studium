@@ -50,9 +50,9 @@ Das Terminal würde dann in diesem speziellen Fall so aussehen:
 
 											Points of player a: 0										Trumpf: Diamonds ♦
 
-													  	 1
+													 1
 												       ╔═══╗
-										        	   ║ ♠ ║
+										        	       ║ ♠ ║
 												       ║ 5 ║
 												       ╚═══╝
 
@@ -80,12 +80,12 @@ Diese Anzeige bleibt, bis der User ENTER drückt.
 
 Wenn BOTS an der Reihe sind, dann sieht es z.B. so aus:
 										
-												$$$$$$$\             $$\          
-												$$  __$$\            $$ |         
+											$$$$$$$\             $$\          
+											$$  __$$\            $$ |         
     											$$ |  $$ | $$$$$$\ $$$$$$\        
     											$$$$$$$\ |$$  __$$\\_$$  _|       
     											$$  __$$\ $$ /  $$ | $$ |         
-   												$$ |  $$ |$$ |  $$ | $$ |$$\      
+   											$$ |  $$ |$$ |  $$ | $$ |$$\      
     											$$$$$$$  |\$$$$$$  | \$$$$  |    
     											\_______/  \______/   \____/     
 
